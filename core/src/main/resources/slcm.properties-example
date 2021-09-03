@@ -1,0 +1,23 @@
+spring.main.banner-mode=off
+logging.level.org.springframework=ERROR
+server.context-path=/auth
+spring.jpa.hibernate.ddl-auto=update
+spring.security.user.name=eyp
+spring.security.user.password=malcolmeyp123
+spring.datasource.initialization-mode=always
+spring.datasource.platform=postgres
+spring.datasource.url=jdbc:postgresql://localhost:5432/denemedb
+spring.datasource.username=postgres
+spring.datasource.password=Eyup_inan5
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+spring.data.cassandra.cluster-name= Test Cluster
+spring.data.cassandra.keyspace-name= test
+spring.data.cassandra.port= 9042
+spring.data.cassandra.password= cassandra
+spring.data.cassandra.username= cassandra
+spring.data.cassandra.contact-points=localhost
+spring.data.cassandra.local-datacenter=datacenter1
+spring.data.cassandra.schema-action=CREATE_IF_NOT_EXISTS
+jwt.secret=merhabayup

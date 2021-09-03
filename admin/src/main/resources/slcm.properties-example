@@ -1,0 +1,28 @@
+spring.main.banner-mode=off
+logging.level.org.springframework=ERROR
+
+spring.jpa.hibernate.ddl-auto=none
+
+spring.datasource.initialization-mode=always
+spring.datasource.platform=postgres
+spring.datasource.url=jdbc:postgresql://localhost:5432/denemedb
+spring.datasource.username=postgres
+spring.datasource.password=Eyup_inan5
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+spring.data.cassandra.cluster-name= Test Cluster
+spring.data.cassandra.keyspace-name= test
+spring.data.cassandra.port= 9042
+spring.data.cassandra.password= cassandra
+spring.data.cassandra.username= cassandra
+spring.data.cassandra.contact-points=localhost
+spring.data.cassandra.local-datacenter=datacenter1
+
+server.address=<your_ip>
+server.port=<your_port>
+server.ssl.enabled=<bool>
+
+entegration.endpoint=http://localhost:3000
+api.endpoint.baseurl=http://localhost:8080
+api.endpoint.path=/api/v1/

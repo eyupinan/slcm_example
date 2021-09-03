@@ -1,0 +1,28 @@
+#Tue Aug 03 11:39:23 TRT 2021
+subscriptionRenewal.emailMessage=Merhaba $name$ \!
+subscriptionRenewal.time=4
+subscriptionRenewal.timeType=days
+subscriptionRenewal.emailState=true
+# subscriptionRenewal : Notification type
+# emailMessage : Notification property
+# time : interval
+# timeType : interval type
+
+# Notification Types :
+#	subscriptionCreation
+	subscriptionCancelation
+	subscriptionRenewal
+	orderCreation
+	orderCancelation
+	orderSuccess
+	orderFailure
+	nextOrderDate
+
+# interval Types:
+	days
+	hours
+	minutes
+	seconds
+	
+#NOTE: Some of notification types doesnt require some notification properties. For example subscriptionCreation doesnt require time and timeType.
+#you should only update these features from the notifications page or by posting to the notifications endpoint.
